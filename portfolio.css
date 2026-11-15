@@ -1,0 +1,128 @@
+* {
+margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+     font-family: Arial, Helvetica, sans-serif;
+     line-height: 1.6;
+     color: #333;
+}
+header{ 
+    background: #2c3e50;
+    color: white;
+    padding: 1rem 2rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style:none;
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #3498db;
+}
+section{
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+    
+}
+#home{
+    text-align: center;
+    background:#ecf0f1 ;
+    padding: 100px 20px;
+}
+#home h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+
+}
+#home span{
+    color: #3498db;
+}
+button {
+    background: #3498db ;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem ;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+button:hover {
+           background: #2980b9;
+}
+h2{
+    text-align:center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #2c3e50;
+}
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.skill {
+    background: #3498db;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#contact{
+      background-color: #2980b9;
+      color: white;
+      text-align: center;
+      max-width: 100%;
+      padding: 60px,20px;
+}
+.project-card {
+
+background: #ecf0f1;
+padding: 25px;
+border-radius: 8px;
+max-width: 600px;
+margin: auto;
+border-left: 5px solid #3498db;
+
+}
+footer{
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+#topBtn {
+display: none;
+position: fixed;
+bottom: 30px;
+right: 30px;
+z-index: 9999;
+border:none ;
+background: #007bff;
+border: none;
+color: white;
+cursor: pointer;
+padding: 0;
+border-radius: 50%;
+height: 50px;
+width: 50px;
+font-size: 24px;
+}
+#topBtn:hover {
+ background:#0056b3;
+}
